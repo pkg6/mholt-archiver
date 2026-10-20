@@ -1,13 +1,11 @@
 module github.com/mholt/archiver/v4
 
-go 1.22.2
-
-toolchain go1.23.2
+go 1.24
 
 require (
 	github.com/andybalholm/brotli v1.1.1
 	github.com/dsnet/compress v0.0.2-0.20230904184137-39efe44ab707
-	github.com/klauspost/compress v1.17.11
+	github.com/klauspost/compress v1.18.7
 	github.com/klauspost/pgzip v1.2.6
 	github.com/nwaples/rardecode/v2 v2.0.0-beta.4.0.20241112120701-034e449c6e78
 	github.com/therootcompany/xz v1.0.1
